@@ -20,7 +20,7 @@ function Project() {
             imageSrc: [ph1, ph2, ph3, ph4, ph5, ph6],
             imageAlt: "Front of men's Basic Tee in black.",
             github: "https://github.com/npanand/REACTTODO.git",
-            frontend: ["jwt LOGIN AUTHENTICATION", "LOGIN PAGE", "TODO LIST PAGE", "USER BASED TODOLIST SHOWING", "EACH API CALL NOTIFICATION SHOW", "TEXT FIELD VALIDATION"],
+            frontend: ["jwt LOGIN AUTHENTICATION", "LOGIN PAGE","CRUD OPERATION", "TODO LIST PAGE", "USER BASED TODOLIST SHOWING", "EACH API CALL NOTIFICATION SHOW", "TEXT FIELD VALIDATION"],
             BACKEND: ["API ROUTING", "JWT AUTHENTICATION", "MONGODB CONNECTION ESTABLISHED", "CORS ENABLED SPECIFIED PORT ONLY RUN", "MONGO DBSCHEMA", "MVC PATTERN BASE CODE BUILD"]
         }, {
             id: 2,
@@ -30,7 +30,6 @@ function Project() {
             imageAlt: "Front of men's Basic Tee in black.",
             github: "https://github.com/npanand/REACTTODO.git",
             frontend: ["jwt LOGIN AUTHENTICATION", "LOGIN PAGE", "TODO LIST PAGE", "USER BASED TODOLIST SHOWING", "EACH API CALL NOTIFICATION SHOW", "TEXT FIELD VALIDATION"],
-            BACKEND: ["API ROUTING", "JWT AUTHENTICATION", "MONGODB CONNECTION ESTABLISHED", "CORS ENABLED SPECIFIED PORT ONLY RUN", "MONGO DBSCHEMA", "MVC PATTERN BASE CODE BUILD"]
         }
     ]
     return (
@@ -68,22 +67,21 @@ function Project() {
                                         </a>
                                     </h3>
                                 </div>
-                                
                                 <p>
-                                <p className='text-center'>Project respoistory Link: <a href={project.github} className="" title={project.github}><BiLogoGithub className='ml-2'/></a></p>
-                                    </p>
-
+                                    <p className='text-center'>Project respoistory Link: 
+                                    <a href={project.github} className="" title={project.github}><BiLogoGithub className='ml-2' /></a></p>
+                                </p>
                             </div>
                             <div className='pt-2'>
-                                <p className=""><b>FRONTEND</b></p>
+                            {project.frontend!==undefined&& <p className=""><b>FRONTEND</b></p>}
                                 {
-                                    project.frontend.map((value, index) => (
+                                    project.frontend!==undefined&& project.frontend.map((value, index) => (
                                         <h6 key={index}>{`${++index}  ${value}`}</h6>
                                     ))
                                 }
-                                <p><b>BACKEND</b></p>
+                                {project.BACKEND!==undefined&&<p><b>BACKEND</b></p>}
                                 {
-                                    project.BACKEND.map((value, index) => (
+                                    project.BACKEND!==undefined&&project.BACKEND.map((value, index) => (
                                         <h6 key={index}>{`${++index}  ${value}`}</h6>
                                     ))
                                 }

@@ -1,20 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './component/shared/Header';
 import Project from './component/pages/project';
 import Profile from './component/pages/Profile';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <Routes>
+        <Route path='/' element={<Profile />}/>
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Project" element={<Project />} />
       </Routes>
-
     </div>
   );
 }
