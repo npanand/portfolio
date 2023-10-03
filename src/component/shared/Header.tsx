@@ -32,10 +32,10 @@ function Header() {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <Link to="/Profile" className='text-sm font-semibold leading-6 text-gray-900 text-white' >
+                    <Link to="/portfolio" className='text-sm font-semibold leading-6 text-gray-900 text-white' >
                         Profile
                     </Link>
-                    <Link to="/ProJect" className='text-sm font-semibold leading-6 text-gray-900 text-white' >
+                    <Link to="/Project" className='text-sm font-semibold leading-6 text-gray-900 text-white' >
                         Projects
                     </Link>
                 </div>

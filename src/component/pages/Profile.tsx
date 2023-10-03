@@ -11,7 +11,8 @@ export default function Profile() {
           <h1 className="text-center text-purple-950 text-white"> <b className="text-black">About Me</b></h1>
             <div className="text-center">
               <p className="pt-3 text-white">
-                I am a Front End <b>developer</b> I am worked with real time Project and i have skill for
+                I am a Front End <b>developer</b> I am worked with IOT based real time Project 
+                <p  className="text-white">and I am very interested in frontend devlopment i have skill for</p>
                 <p className="text-white"><b  className="text-black">TECH STACK</b> HTML CSS JAVASCRIPT </p>
                 <p className="text-white"><b  className="text-black">DESIGNING</b>  BOOTSTRAP TAILWINDCSS </p>
                 <p className="text-white"><b className="text-black">lIBRARY</b> REACTJS REDUX-TOOLKIT TYPESCRIPT</p>
