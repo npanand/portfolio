@@ -16,7 +16,8 @@ export default function Profile() {
                 <p className="text-white"><b  className="text-black">TECH STACK</b> HTML CSS JAVASCRIPT </p>
                 <p className="text-white"><b  className="text-black">DESIGNING</b>  BOOTSTRAP TAILWINDCSS </p>
                 <p className="text-white"><b className="text-black">lIBRARY</b> REACTJS REDUX-TOOLKIT TYPESCRIPT</p>
-            
+                <p className="text-white"><b className="text-black">VERSION CONTROL SYSYTEM:</b> GIT</p>
+                
               </p>
 
               <div>
