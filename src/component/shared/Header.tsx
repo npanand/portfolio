@@ -67,14 +67,14 @@ function Header() {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
 
-                                <span className='-mx-3  block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 hover:text-slate-800' onClick={()=>{setMobileMenuOpen(false)}}>
-                                    <Link to="/Project" >
+                                <span>
+                                    <Link to="/Project" className='-mx-3  block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 hover:text-slate-800' onClick={() => { setMobileMenuOpen(false) }} >
                                         Project
                                     </Link>
 
                                 </span>
-                                <span className='-mx-3  block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 hover:text-slate-800' onClick={()=>{setMobileMenuOpen(false)}}>
-                                    <Link to="/Profile" >
+                                <span >
+                                    <Link to="/portfolio" className='-mx-3  block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 hover:text-slate-800' onClick={() => { setMobileMenuOpen(false) }}>
                                         Profile
                                     </Link>
                                 </span>
