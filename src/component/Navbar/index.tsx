@@ -26,11 +26,9 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
           }} />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
           {darkMode ? <MdModeNight size="1.5rem" onClick={() => setDarkMode(!darkMode)} color='white' /> : <IoMdSunny size="1.5rem" onClick={() => setDarkMode(!darkMode)} />}
@@ -40,22 +38,15 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
           <MobileMenu
             //@ts-ignore
             isOpen={isOpen}>
-            <MobileLink href="#about" onClick={() => {
-              setIsOpen(!isOpen)
-            }}>About</MobileLink>
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
-            <MobileLink href='#education' onClick={() => {
+            <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Education</MobileLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            }}>Experience</MobileLink>
           </MobileMenu>
         }
       </NavbarContainer>
