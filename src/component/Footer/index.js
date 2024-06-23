@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Bio } from '../../data/constants';
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
@@ -85,14 +85,13 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Anandan</Logo>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display" className='mt-2'><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Anandan. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );

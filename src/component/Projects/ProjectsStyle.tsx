@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import _default from '../../component/themes/default';
 
 export const Container = styled.div`
-    background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
-    display: flex;
+    
+display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
@@ -55,7 +55,7 @@ export const ToggleButtonGroup = styled.div`
     border: 1.5px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.primary};
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 8px;
     font-weight: 500;
     margin: 22px 0px;
     @media (max-width: 768px) {
@@ -67,7 +67,7 @@ export const ToggleButton = styled.div`
     padding: 8px 18px;
     border-radius: 6px;
     cursor: pointer;
-    ${({ active, theme }:any) =>
+    ${({ active, theme }: any) =>
         active && `
     background: ${theme.primary + 20};
     `
@@ -76,8 +76,8 @@ export const ToggleButton = styled.div`
         background: ${({ theme }) => theme.primary + 8};
     }
     @media (max-width: 768px) {
-        padding: 6px 8px;
-        border-radius: 4px;
+        // padding: 6px 8px;
+        border-radius: 2px;
     }
 `
 export const Divider = styled.div`

@@ -9,6 +9,8 @@ import Projects from "./component/Projects";
 import Footer from "./component/Footer";
 import Experience from "./component/Experience";
 import ProjectDetails from "./component/ProjectDetails";
+import SocialMedia from "./component/SocialMedia";
+
 
 const Body = styled.div`
   background-color: ${({ theme }: any) => theme.bg};
@@ -31,6 +33,7 @@ function App() {
       <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
       <Body>
         <HeroSection />
+        <SocialMedia/>
         <Wrapper>
           <Skills />
           <Experience />

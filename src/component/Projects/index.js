@@ -26,13 +26,11 @@ const Projects = ({ openModal, setOpenModal }) => {
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>Web Application</ToggleButton>
           }
-          {toggle === 'free launch' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('Free Launch')}>FreeLaunch</ToggleButton>
+          {toggle === 'Free Launch' ?
+            <ToggleButton active value="Free Launch" onClick={() => setToggle('Free Launch')}>Free Launch</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('Free Launch')}>FreeLaunch</ToggleButton>
+            <ToggleButton value="Free Launch" onClick={() => setToggle('Free Launch')}>Free Launch</ToggleButton>
           }
-
-
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
