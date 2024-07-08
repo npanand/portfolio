@@ -7,7 +7,6 @@ import HeroSection from "./component/HeroSection";
 import Skills from "./component/Skills";
 import Projects from "./component/Projects";
 import Footer from "./component/Footer";
-import Experience from "./component/Experience";
 import ProjectDetails from "./component/ProjectDetails";
 import SocialMedia from "./component/SocialMedia";
 
@@ -33,10 +32,9 @@ function App() {
       <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
       <Body>
         <HeroSection />
-        <SocialMedia/>
+        <SocialMedia />
         <Wrapper>
           <Skills />
-          <Experience />
         </Wrapper>
         <Projects openModal={openModal} setOpenModal={setOpenModal} />
         <Footer />

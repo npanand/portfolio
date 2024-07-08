@@ -124,8 +124,8 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Technical Skills</Title>
-        <Desc>I have immersed myself in ReactJS, sharpening my expertise within the MERN stack. My journey has been marked by hands-on experience and continuous learning, enabling me to craft sophisticated applications that harness React's versatility and efficiency.
-        </Desc>
+        {/* <Desc>I have immersed myself in ReactJS, sharpening my expertise within the MERN stack. My journey has been marked by hands-on experience and continuous learning, enabling me to craft sophisticated applications that harness React's versatility and efficiency.
+        </Desc> */}
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>

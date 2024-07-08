@@ -104,6 +104,12 @@ const ImageSizeReduce = styled.div`
 .awssld__bullets{
 display:none;}
 `
+const ProjectDescription = styled.div`
+ul{
+    list-style: disc;
+    margin-left: 35px;
+    }
+`
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
@@ -139,8 +145,31 @@ const index = ({ openModal, setOpenModal }) => {
                         </AwesomeSlider>
                     </ImageSizeReduce>
                     <Desc>{project?.description}</Desc>
+                    <ProjectDescription>
+                        {project.content.frontend.length > 0 && <>
+                            <h3>Front End :</h3>
+                            <ul>
+                                {
+                                    project.content.frontend.map((val) => (
+                                        <li>{val.description + " " + val.details}</li>
+                                    ))
+                                }
+                            </ul>
+                        </>
+                        }
+                        {project.content.backend.length > 0 &&
+                            <>
+                                <h3 className='mt-2'>Back End:</h3>
+                                <ul>
+                                    {
+                                        project.content.backend.map((val) => (
+                                            <li>{val.description + " " + val.details}</li>
+                                        ))
+                                    }
+                                </ul> </>}
 
-                    <ButtonGroup>
+                    </ProjectDescription>
+                    <ButtonGroup className='mt-1'>
                         <Button href={project?.github} target='new'>View Code</Button>
                     </ButtonGroup>
                 </Wrapper>

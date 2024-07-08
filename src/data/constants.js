@@ -7,11 +7,24 @@ import ph6 from "../component/asset/project1/project2.jpg";
 import ph7 from "../component/asset/project1/signupregistration.jpg";
 import ph8 from "../component/asset/project1/updateproject1.jpg";
 import ph9 from "../component/asset/project1/updateprojectnotification.jpg";
-import ph21 from "../component/asset/project2/crudhome.jpg";
-import ph22 from "../component/asset/project2/dataadd.jpg";
-import ph23 from "../component/asset/project2/updatetododata.jpg";
-import ph24 from "../component/asset/project2/4.jpg";
-import ph25 from "../component/asset/project2/5.jpg";
+import ph21 from "../component/asset/project2/1.jpeg";
+import ph22 from "../component/asset/project2/2.jpeg";
+import ph23 from "../component/asset/project2/3.jpeg";
+import ph24 from "../component/asset/project2/4.jpeg";
+import ph25 from "../component/asset/project2/5.jpeg";
+import ph26 from "../component/asset/project2/6.jpeg";
+import ph27 from "../component/asset/project2/7.jpeg";
+import ph28 from "../component/asset/project2/8.jpeg";
+import ph29 from "../component/asset/project2/9.jpeg";
+import ph30 from "../component/asset/project2/10.jpeg";
+import ph31 from "../component/asset/project2/12.jpeg";
+import ph32 from "../component/asset/project2/13.jpeg";
+import ph33 from "../component/asset/project2/14.jpeg";
+import ph41 from "../component/asset/project3/1.jpeg";
+import ph42 from "../component/asset/project3/2.jpeg";
+import ph43 from "../component/asset/project3/3.jpeg";
+import ph44 from "../component/asset/project3/4.jpeg";
+import ph45 from "../component/asset/project3/5.jpeg";
 export const Bio = {
   name: "Anandan",
   roles: [
@@ -20,12 +33,11 @@ export const Bio = {
     "Mern Stack Devloper"
   ],
   description:
-    "I thrive on new challenges, driven by my passion for continuous learning and dedicated to delivering high-quality outcomes. 💪🌟 With a positive attitude and a growth mindset, I am poised to make a meaningful impact and achieve excellence. 🚀✨",
+    "🌟 With over 1 year of experience in React.js development, I've immersed myself in mastering the MERN stack. 💪I specialize in creating efficient, user-friendly interfaces using React.js and integrating them seamlessly with MongoDB, Express.js, and Node.js. 🚀Driven by a passion for innovation and continuous improvement, I thrive on tackling new challenges and delivering high-quality solutions. ✨",
   github: "https://github.com/npanand",
   resume:
     "",
-  linkedin: "",
-
+  linkedin: "https://www.linkedin.com/in/anandan-np-637a25212",
 };
 
 export const skills = [
@@ -158,7 +170,7 @@ export const experiences = [
     role: "Trainee",
     company: "Squadcube solutions Private Limited ",
     date: "Aug 2023 - Oct 2023",
-    desc: "Working on the frontend , Developed safeguard360 web app using ReactJS, HTML, CSS, JavaScript, RxJS, Bootstrap for 3 months with authentication, role-based access, JWT security, API binding, and UI enhancements. Created safeguard360 installer mobile app with React Native Expo, authentication, role-based access, JWT security, API binding, UI improvements, IoT device connection in 1 month.",
+    desc: "Working on the frontend , Developed iot based domain web app using ReactJS, HTML, CSS, JavaScript, RxJS, Bootstrap for 3 months with authentication, role-based access, JWT security, API binding, and UI enhancements. Created iot based  mobile app with React Native Expo, authentication, role-based access, JWT security, API binding, UI improvements, IoT device connection in 1 month.",
     skills: [
       "Html",
       "Css",
@@ -178,7 +190,7 @@ export const experiences = [
     role: "Intern",
     company: "Squadcube solutions Private Limited ",
     date: "May 2023 - July 2023",
-    desc: "Working on the frontend During my internship, I contributed significantly to the 'safeguard360 installer application' project by analyzing bugs, rewriting code, and improving the user interface. I also added new functionalities using React.js, HTML, CSS, JavaScript, and TypeScript.",
+    desc: "Working on the frontend During my internship, I contributed significantly to the web app iot based domain  project by analyzing bugs, rewriting code, and improving the user interface. I also added new functionalities using React.js, HTML, CSS, JavaScript, and TypeScript.",
     skills: [
       "Html",
       "Css",
@@ -212,27 +224,178 @@ export const projects = [
     category: "web app",
     github: "https://github.com/npanand/portfolio",
     webapp: "",
+    content: {
+      "frontend": [
+
+        {
+          "description": "Dark Mode Implementation",
+          "details": "Integrated dark mode feature using Tailwind CSS utilities and Angular directives, allowing users to switch between light and dark themes seamlessly."
+        },
+        {
+          "description": "Responsive Design",
+          "details": "Ensured the registration form is fully responsive across devices and screen sizes, leveraging Tailwind CSS responsive classes."
+        },
+      ],
+      "backend": [
+
+      ]
+    }
   },
   {
     id: 2,
     title: "Accidental Emergency Management System",
     description:
-      "Welcome to my portfolio, where I present a curated selection of projects that highlight my journey as a software developer. With a focus on innovation and problem-solving, each project demonstrates my dedication to leveraging technology to create impactful solutions. Dive in to discover how I bring creativity, technical expertise, and a passion for excellence to every endeavor",
-    image: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9],
+      "This application provides a robust system for user registration, detailed information submission, and emergency management through QR code technology. It ensures quick access to critical user details during emergencies, enabling hospitals and emergency responders to respond effectively. The use of modern web technologies and secure practices ensures reliability, scalability, and data protection throughout the system.",
     tags: [
       "Reactjs",
       "Html",
       "Css",
       "javascript",
       "Bootstrap",
+      'Axios',
       "Nodejs",
-      "ExpressJs"
-      ,"Mongodb",
-
+      "ExpressJs",
+      "Mongodb",
+      "Nodemailer",
+      "Bcrypt",
+      "Jwt"
     ],
     category: "Free Launch",
-    github: "https://github.com/npanand/portfolio",
+    github: "https://github.com/npanand/Accidental-Emergency-Information-System-backend",
     webapp: "",
+    image: [ph21, ph22, ph23, ph24, ph25, ph26, ph27, ph28, ph29, ph30, ph31, ph32, ph33],
+    content: {
+      "frontend": [
+        {
+          "description": "User Registration Form with validation",
+          "details": "Designed and implemented a user registration form with client-side validation for input fields."
+        },
+        {
+          "description": "Advanced Details Form for logged-in users",
+          "details": "Created a form for logged-in users to provide advanced details including Aadhar number, blood group, and health information."
+        },
+        {
+          "description": "Automatic Email Confirmation with QR code",
+          "details": "Implemented functionality to automatically send confirmation emails containing QR codes upon successful registration."
+        },
+        {
+          "description": "QR Code Handling for emergency access",
+          "details": "Developed features to handle QR codes received via email, allowing users to convert them into stickers for emergency access."
+        },
+        {
+          "description": "Real-time Updates and Notifications using React and Redux",
+          "details": "Utilized React.js and Redux to implement real-time updates and notifications, ensuring a responsive and interactive user interface."
+        },
+        {
+          "description": "Responsive UI with HTML, CSS, JavaScript/TypeScript, and React.js",
+          "details": "Designed and developed a responsive user interface using HTML, CSS for styling, JavaScript/TypeScript for interactivity, and React.js for modular UI components."
+        }
+      ],
+      "backend": [
+        {
+          "description": "API for User Registration and JWT token generation",
+          "details": "Developed API endpoints for user registration and JWT token generation to authenticate and authorize users securely."
+        },
+        {
+          "description": "API for Advanced Details storage and retrieval",
+          "details": "Implemented API endpoints to store and retrieve advanced user details such as Aadhar number, blood group, and health information."
+        },
+        {
+          "description": "Email Sending API with Nodemailer integration",
+          "details": "Integrated Nodemailer API to send automatic email confirmations containing QR codes for user verification."
+        },
+        {
+          "description": "QR Code Management API",
+          "details": "Developed API endpoints for generating and managing QR codes, which can be converted into stickers for emergency access."
+        },
+        {
+          "description": "Real-time Updates API with Polling",
+          "details": "Implemented Polling-based API for real-time updates and notifications to provide users with immediate information and alerts."
+        },
+        {
+          "description": "Admin Panel API for CRUD operations and authentication",
+          "details": "Created API endpoints for the admin panel to perform CRUD operations on user and hospital details, with authentication mechanisms for secure access."
+        }
+      ]
+    }
   },
+  {
+    id: 3,
+    title: "React Todo Application",
+    description:
+      "I developed a secure JWT-based authentication system for login and integrated CRUD operations, ensuring data integrity with text field validation on the frontend, while on the backend, I implemented structured API routing, secured endpoints with JWT authentication, established MongoDB connectivity for data storage, configured CORS for restricted access, and structured data storage using MongoDB schemas, all following the MVC architectural pattern.",
+    image: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9],
+    tags: [
+      "Reactjs",
+      "Html",
+      "Css",
+      'Axios',
+      "javascript",
+      "Bootstrap",
+      "Nodejs",
+      "ExpressJs"
+      , "Mongodb",
+    ],
+    category: "web app",
+    github: "https://github.com/npanand/REACTTODO.git",
+    webapp: "",
+    content: {
+      "frontend": [
+        {
+          "description": "Secure JWT-based Authentication System",
+          "details": "Developed authentication system using JWT for secure user sessions."
+        },
+        {
+          "description": "Integrated CRUD Operations",
+          "details": "Implemented frontend interfaces for seamless CRUD operations with backend APIs."
+        },
+        {
+          "description": "Data Integrity and Validation",
+          "details": "Implemented text field validation for data integrity on the frontend."
+        },
+        {
+          "description": "Structured API Routing",
+          "details": "Organized frontend API calls following RESTful principles."
+        },
+        {
+          "description": "MVC Architectural Pattern",
+          "details": "Designed frontend components with clear MVC separation."
+        },
+        {
+          "description": "User Interface Design and UX",
+          "details": "Created responsive UI designs focusing on usability."
+        }
+      ],
+      "backend": [
+        {
+          "description": "JWT Authentication and Endpoint Security",
+          "details": "Implemented JWT middleware for secure endpoint access."
+        },
+        {
+          "description": "MongoDB Connectivity and Data Storage",
+          "details": "Established MongoDB integration for efficient data management."
+        },
+        {
+          "description": "CORS Configuration",
+          "details": "Configured CORS to restrict API access based on domain."
+        },
+        {
+          "description": "Structured Data Storage",
+          "details": "Designed MongoDB schemas for data consistency."
+        },
+        {
+          "description": "API Routing and Endpoint Management",
+          "details": "Implemented RESTful API routes for efficient data handling."
+        },
+        {
+          "description": "MVC Architectural Pattern",
+          "details": "Organized backend logic according to MVC principles."
+        }
+      ]
+    }
+
+  },
+
+
 ];
 

@@ -17,7 +17,7 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 525px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -111,7 +111,9 @@ const Description = styled.div`
 `
 const ImageSizeReduce = styled.div`
 `
+const ProjectFilter = styled.div`
 
+`
 
 const ProjectCards = ({ project, setOpenModal }) => {
     console.log(project?.imageSrc);
@@ -142,6 +144,7 @@ const ProjectCards = ({ project, setOpenModal }) => {
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
+
             </Details>
 
             <Button onClick={() => setOpenModal({ state: true, project: project })}>Detail View</Button>

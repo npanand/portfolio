@@ -11,11 +11,18 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   const theme: any = useTheme()
   return (
-    <Nav>
-      <NavbarContainer>
+    <Nav style={darkMode ? {
+      // background: 'rgb(193, 201, 193)',
+    } : {
+      background: 'rgb(244 246 244)',
+      border: '1px solid white'
+    }}>
+      <NavbarContainer >
         <NavLogo to='/' style={darkMode ? {
-          color: 'white'
-        } : { color: 'black' }}>
+          color: 'white',
+
+        }
+          : { color: 'black' }}>
           <a>
             <FaDev size="2rem" /> <Span>Portfolio</Span>
           </a>
@@ -50,7 +57,7 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
           </MobileMenu>
         }
       </NavbarContainer>
-    </Nav>
+    </Nav >
   )
 }
 

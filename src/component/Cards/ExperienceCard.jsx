@@ -133,10 +133,12 @@ const ItemWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    
 `
 
 const Skill = styled.div`
     font-size: 15px;
+    color: red !important;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
