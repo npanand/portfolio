@@ -36,11 +36,11 @@ function App() {
         <Wrapper>
           <Skills />
         </Wrapper>
-        <Projects openModal={openModal} setOpenModal={setOpenModal} />
+        {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
         <Footer />
-        {openModal.state &&
+        {/* {openModal.state &&
           <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-        }
+        } */}
       </Body>
 
     </ThemeProvider>
