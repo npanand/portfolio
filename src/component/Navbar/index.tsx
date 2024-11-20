@@ -34,8 +34,8 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
         </MobileIcon>
         <NavItems>
           <NavLink href='#skills'>Skills</NavLink>
-          {/* <NavLink href='#projects'>Projects</NavLink> */}
-          {/* <NavLink href='#experience'>Experience</NavLink> */}
+          <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='#experience'>Experience</NavLink>
         </NavItems>
         <ButtonContainer>
           {darkMode ? <MdModeNight size="1.5rem" onClick={() => setDarkMode(!darkMode)} color='white' /> : <IoMdSunny size="1.5rem" onClick={() => setDarkMode(!darkMode)} />}
@@ -48,12 +48,12 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            {/* <MobileLink href='#projects' onClick={() => {
+            <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Projects</MobileLink> */}
-            {/* <MobileLink href='#experience' onClick={() => {
+            }}>Projects</MobileLink>
+            <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink> */}
+            }}>Experience</MobileLink>
           </MobileMenu>
         }
       </NavbarContainer>
