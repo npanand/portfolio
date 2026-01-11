@@ -163,7 +163,7 @@ const index = ({ openModal, setOpenModal }) => {
                                 <ul>
                                     {
                                         project.content.backend.map((val) => (
-                                            <li>{val.description + " " + val.details}</li>
+                                            <li><b>{val.description}</b>{" " + val.details}</li>
                                         ))
                                     }
                                 </ul> </>}

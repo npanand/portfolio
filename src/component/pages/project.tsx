@@ -21,28 +21,6 @@ import 'react-awesome-slider/dist/styles.css';
 
 function Project() {
 
-    const products = [
-        {
-            id: 1,
-            name: 'LOGIN PAGE WITH JWT AUTHENTICATION AND CRUD OPERATION',
-            href: 'https://github.com/npanand/REACTTODO.git',
-            imageSrc: [ph1, ph2, ph3, ph4, ph5, ph6,ph7,ph8,ph9],
-            imageAlt: "Project1",
-            github: "https://github.com/npanand/REACTTODO.git",
-            frontend: ["jwT LOGIN AUTHENTICATION", "LOGIN PAGE", "CRUD OPERATION", "TODO LIST PAGE", "USER BASED TODOLIST SHOWING", "EACH API CALL NOTIFICATION SHOW", "TEXT FIELD VALIDATION"],
-            BACKEND: ["API ROUTING", "JWT AUTHENTICATION", "MONGODB CONNECTION ESTABLISHED", "CORS ENABLED SPECIFIED PORT ONLY RUN", "MONGO DBSCHEMA", "MVC PATTERN BASE CODE BUILD"],
-            
-        }, {
-            id: 2,
-            name: 'TODOLIST PAGE WITH REDUX-TOOLKIT',
-            href: '#',
-            imageSrc: [ph21, ph22, ph23, ph24, ph25],
-            imageAlt: "Project2",
-            github: "https://github.com/npanand/REACTTODO.git",
-            frontend: [ "TODO LIST PAGE", "TODO DATA ADDED", "EACH OPERATION NOTIFICATION SHOW", "TEXT FIELD VALIDATION","TODO DATA UPDATE","TODO DATA DELETE","REDUX-TOOLKIT STATE MANEGEMENT TOOL USED"],
-        
-        }
-    ]
     return (
 
         <div className="bg-white ">
