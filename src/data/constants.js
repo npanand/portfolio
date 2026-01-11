@@ -36,10 +36,9 @@ import ph46 from "../component/asset/project4/P_46.png";
 export const Bio = {
   name: "Anandan",
   roles: [
-    "Java Full Stack Developer (Spring Boot & React)",
-    "Java Backend & React Frontend Developer",
-    "Spring Boot Microservices Developer",
-    "Web Application Developer (Java & React)"
+    "Full Stack Developer",
+    "Spring & React Developer",
+    "Web Application Developer "
   ],
   description:
     "🌟 With over 2 years of experience in React.js and Spring Boot development, I’ve honed my skills in building dynamic, high-performance web applications. 💪 I specialize in creating intuitive, pixel-perfect interfaces with React.js and connecting them seamlessly to robust Spring Boot backends. 🚀 Driven by a passion for innovation and continuous learning, I thrive on solving complex challenges and delivering scalable, user-friendly digital solutions. ✨",
