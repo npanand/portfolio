@@ -51,9 +51,9 @@ const Navbar = ({ darkMode, setDarkMode }: any) => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
+            {/* <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
+            }}>Experience</MobileLink> */}
           </MobileMenu>
         }
       </NavbarContainer>

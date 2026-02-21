@@ -126,6 +126,14 @@ export const skills = [
       {
         name: "RabbitMQ",
         image: "https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg",
+      },
+      {
+        name: "Apache Kafka",
+        image: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg",
+      },
+      {
+        name: "Docker",
+        image: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
       }
     ],
   },
@@ -238,39 +246,39 @@ export const experiences = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Portfolio",
-    description:
-      "Welcome to my portfolio, where I present a curated selection of projects that highlight my journey as a software developer. With a focus on innovation and problem-solving, each project demonstrates my dedication to leveraging technology to create impactful solutions. Dive in to discover how I bring creativity, technical expertise, and a passion for excellence to every endeavor",
-    image: [ph10, ph11, ph12, ph13, ph14],
-    tags: [
-      "Reactjs",
-      "Html",
-      "Css",
-      "javascript",
-      "Tailwindcss",
-      "Styled Component"
-    ],
-    category: "web app",
-    github: "https://github.com/npanand/portfolio",
-    webapp: "",
-    content: {
-      "frontend": [
-        {
-          "description": "Dark Mode Implementation",
-          "details": "Integrated dark mode feature using Tailwind CSS utilities and Angular directives, allowing users to switch between light and dark themes seamlessly."
-        },
-        {
-          "description": "Responsive Design",
-          "details": "Ensured the registration form is fully responsive across devices and screen sizes, leveraging Tailwind CSS responsive classes."
-        },
-      ],
-      "backend": [
+  // {
+  //   id: 1,
+  //   title: "Portfolio",
+  //   description:
+  //     "Welcome to my portfolio, where I present a curated selection of projects that highlight my journey as a software developer. With a focus on innovation and problem-solving, each project demonstrates my dedication to leveraging technology to create impactful solutions. Dive in to discover how I bring creativity, technical expertise, and a passion for excellence to every endeavor",
+  //   image: [ph10, ph11, ph12, ph13, ph14],
+  //   tags: [
+  //     "Reactjs",
+  //     "Html",
+  //     "Css",
+  //     "javascript",
+  //     "Tailwindcss",
+  //     "Styled Component"
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/npanand/portfolio",
+  //   webapp: "",
+  //   content: {
+  //     "frontend": [
+  //       {
+  //         "description": "Dark Mode Implementation",
+  //         "details": "Integrated dark mode feature using Tailwind CSS utilities and Angular directives, allowing users to switch between light and dark themes seamlessly."
+  //       },
+  //       {
+  //         "description": "Responsive Design",
+  //         "details": "Ensured the registration form is fully responsive across devices and screen sizes, leveraging Tailwind CSS responsive classes."
+  //       },
+  //     ],
+  //     "backend": [
 
-      ]
-    }
-  },
+  //     ]
+  //   }
+  // },
   {
     id: 2,
     title: "Accidental Emergency Management System",
@@ -430,7 +438,7 @@ export const projects = [
     title: "Job Application Microservice",
     description:
       "Developed a role-based microservices application using Spring Boot, Java 17, and Spring Security, with Eureka Server for service discovery and load balancing. Implemented Resilience4j for circuit breakers, retries, and rate limiting to ensure high availability and fault tolerance. Integrated MySQL, Swagger, Docker, Zipkin, and Spring Actuator for persistent storage, API documentation, monitoring, and containerized deployment.",
-    image: [ph41,ph42,ph43,ph44,ph45,ph46],
+    image: [ph41, ph42, ph43, ph44, ph45, ph46],
     tags: [
       "Swagger API Documentation",
       "Spring Boot",
